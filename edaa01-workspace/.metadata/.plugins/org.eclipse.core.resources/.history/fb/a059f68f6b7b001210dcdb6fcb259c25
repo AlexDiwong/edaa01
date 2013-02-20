@@ -1,0 +1,16 @@
+package sudoku;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class SudokuView {
+	private CommandPanel commandPanel;
+	private GridPanel gridPanel;
+	
+	public SudokuView(String title) {
+		JFrame frame = new JFrame(title);
+	}
+
+}

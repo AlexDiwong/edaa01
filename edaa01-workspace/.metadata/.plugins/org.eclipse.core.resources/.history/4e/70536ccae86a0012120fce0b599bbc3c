@@ -1,0 +1,42 @@
+package set;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class D5 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		new D5().run();
+	}
+	
+	public void run() {
+		Random r = new Random();
+		int[] k = new int[20];
+		for (int i = 0; i < k.length; i++) {
+			k[i] = r.nextInt(6)+1;
+		}
+		
+		int[] l = uniqueElements(k);
+		for(int i = 0; i < l.length; i++) {
+			System.out.println(l[i]);
+		}
+	}
+	
+	public static int[] uniqueElements(int[] ints) {
+		MaxSet<Integer> lista = new MaxSet<Integer>();
+		for (int i = 0; i < ints.length; i++) {
+			lista.add(ints[i]);
+		}
+		int[] ordnad = new int[lista.size()];
+		for(int j = 1; j <= lista.size(); j++) {
+			ordnad[lista.size()-j]=lista.getMax();
+			lista.remove(lista.getMax());
+		}
+		return ordnad;
+	}
+	
+
+}

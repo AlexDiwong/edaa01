@@ -1,0 +1,12 @@
+package sudoku;
+
+import javax.swing.*;
+import java.awt.*;
+
+
+public class GridPanel extends JPanel{
+	public GridPanel(SudokuView view) {
+		setLayout(new GridLayout(9, 9));
+	}
+
+}

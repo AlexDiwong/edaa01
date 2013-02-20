@@ -1,0 +1,27 @@
+package sudoku;
+
+import javax.swing.*;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class SudokuView {
+	private CommandPanel commandPanel;
+	private GridPanel gridPanel;
+	
+	public SudokuView(String title) {
+		JFrame frame = new JFrame(title);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		commandPanel = new CommandPanel(this);
+		gridPanel = new GridPanel(this);
+		
+		frame.add(gridPanel, BorderLayout.NORTH);
+		frame.add(commandPanel, BorderLayout.SOUTH);
+		
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+}
