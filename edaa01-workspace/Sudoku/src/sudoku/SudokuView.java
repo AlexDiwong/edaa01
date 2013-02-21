@@ -16,11 +16,6 @@ public class SudokuView {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		fields = new JTextField[9][9];
-		for (int i = 0; i < 9; i++) {
-			for (int j = 0; j < 9; j++) {
-				fields[j][i] = new JTextField();
-			}
-		}
 		
 		commandPanel = new CommandPanel(this);
 		gridPanel = new GridPanel(this, fields);

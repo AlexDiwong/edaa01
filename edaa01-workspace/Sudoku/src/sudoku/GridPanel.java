@@ -13,6 +13,7 @@ public class GridPanel extends JPanel {
 		setLayout(new GridLayout(9, 9));
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
+				fields[j][i] = new JTextField();
 				add(fields[j][i]);
 			}
 		}
