@@ -1,7 +1,6 @@
 package sudoku;
 
 import javax.swing.*;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,16 +8,16 @@ import java.awt.event.ActionListener;
 public class SudokuView {
 	private CommandPanel commandPanel;
 	private GridPanel gridPanel;
-	JTextField[][] fields;
+	OneLetterField[][] fields;
 	
 	public SudokuView(String title) {
 		JFrame frame = new JFrame(title);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		fields = new JTextField[9][9];
+		fields = new OneLetterField[9][9];
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
-				fields[j][i] = new JTextField();
+				fields[j][i] = new OneLetterField();
 			}
 		}
 		
