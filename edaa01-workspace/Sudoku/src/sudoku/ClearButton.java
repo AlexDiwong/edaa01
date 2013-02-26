@@ -18,8 +18,11 @@ public class ClearButton extends JButton implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		// TODO Auto-generated method stub
-
-	}
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				view.fields[j][i].setText("0");
+			}
+		}
+	}	
 
 }

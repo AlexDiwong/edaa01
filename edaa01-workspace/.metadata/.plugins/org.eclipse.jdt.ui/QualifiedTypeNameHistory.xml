@@ -8,4 +8,5 @@
 <fullyQualifiedTypeName name="fractal.Fractal"/>
 <fullyQualifiedTypeName name="mountain.Point"/>
 <fullyQualifiedTypeName name="sudoku.OneLetterField"/>
+<fullyQualifiedTypeName name="solver.Solver"/>
 </qualifiedTypeNameHistroy>

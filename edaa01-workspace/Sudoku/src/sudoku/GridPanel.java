@@ -2,6 +2,8 @@ package sudoku;
 
 import javax.swing.*;
 
+import solver.Solver;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -18,11 +20,11 @@ public class GridPanel extends JPanel{
 		setLayout(new GridLayout(9, 9));
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
-				fields[j][i] = new JTextField();
-				add(fields[j][i]);
+				fields[i][j] = new OneLetterField();
+				fields[i][j].setText("0");
+				add(fields[i][j]);
 			}
 		}
 		
-	}
-	
+	}	
 }
