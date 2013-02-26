@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
 <window height="967" maximized="true" width="1251" x="16" y="78">
 <fastViewData fastViewLocation="1024">
@@ -13,10 +13,10 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="136" y="34"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="34"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="108" y="34"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="34"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="156" y="34"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="72" y="34"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -30,56 +30,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FractalView.java" partName="FractalView.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/lab3/src/fractal/FractalView.java" title="FractalView.java" tooltip="lab3/src/fractal/FractalView.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/fractal/FractalView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="230" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GridPanel.java" partName="GridPanel.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/sudoku/GridPanel.java" title="GridPanel.java" tooltip="Sudoku/src/sudoku/GridPanel.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/sudoku/GridPanel.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="489" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SudokuView.java" partName="SudokuView.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/sudoku/SudokuView.java" title="SudokuView.java" tooltip="Sudoku/src/sudoku/SudokuView.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/sudoku/SudokuView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="524" selectionTopPixel="62"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SudokuApplication.java" partName="SudokuApplication.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/sudoku/SudokuApplication.java" title="SudokuApplication.java" tooltip="Sudoku/src/sudoku/SudokuApplication.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/sudoku/SudokuApplication.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solver.java" partName="Solver.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/solver/Solver.java" title="Solver.java" tooltip="Sudoku/src/solver/Solver.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/solver/Solver.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="430" selectionTopPixel="187"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SolveButton.java" partName="SolveButton.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/sudoku/SolveButton.java" title="SolveButton.java" tooltip="Sudoku/src/sudoku/SolveButton.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/sudoku/SolveButton.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OneLetterField.java" partName="OneLetterField.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/sudoku/OneLetterField.java" title="OneLetterField.java" tooltip="Sudoku/src/sudoku/OneLetterField.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/sudoku/OneLetterField.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="98"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommandPanel.java" partName="CommandPanel.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/sudoku/CommandPanel.java" title="CommandPanel.java" tooltip="Sudoku/src/sudoku/CommandPanel.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/sudoku/CommandPanel.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClearButton.java" partName="ClearButton.java" path="/h/dk/f/ain10aso/workspace/edaa01-workspace/Sudoku/src/sudoku/ClearButton.java" title="ClearButton.java" tooltip="Sudoku/src/sudoku/ClearButton.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/sudoku/ClearButton.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
@@ -106,11 +60,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (40 items)"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="108" org.eclipse.ui.ide.markerType="754" org.eclipse.ui.ide.pathField="168" org.eclipse.ui.ide.resourceField="138" org.eclipse.ui.ide.severityAndDescriptionField="324"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -361,168 +310,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/sudoku/SudokuView.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/solver/Solver.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/sudoku/OneLetterField.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/solver/Region.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/sudoku/SudokuApplication.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/sudoku/SolveButton.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/sudoku/CommandPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/sudoku/ClearButton.java"/>
-</editors>
-<item historyLabel="Solver.java" index="1">
-<position/>
-</item>
-<item historyLabel="OneLetterField.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="355" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="208" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="210" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="428" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="477" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="530" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="549" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="554" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="451" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="622" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="469" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="243" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="874" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1219" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="1195" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="612" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="1195" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="1195" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="1195" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="873" y="6"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="1195" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Region.java" index="3">
-<position info="not_deleted" x="1195" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="924" y="6"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1056" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1048" y="6"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1200" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1153" y="0"/>
-</item>
-<item historyLabel="SudokuApplication.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="1153" y="0"/>
-</item>
-<item historyLabel="SudokuApplication.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="SudokuView.java" index="0">
-<position info="not_deleted" x="524" y="0"/>
-</item>
-<item historyLabel="Solver.java" index="1">
-<position info="not_deleted" x="430" y="0"/>
-</item>
-<item historyLabel="SudokuApplication.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="SudokuView.java" index="0">
-<position info="not_deleted" x="524" y="0"/>
-</item>
-<item historyLabel="SolveButton.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="OneLetterField.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="CommandPanel.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="ClearButton.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>

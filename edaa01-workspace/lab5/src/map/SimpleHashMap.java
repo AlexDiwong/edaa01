@@ -47,7 +47,7 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 	}
 
 	public String show() {
-		String s = null;
+		String s = "";
 		int i = 0;
 		for (Entry<K,V> e : hashMap) {
 			if(e != null) {
@@ -59,6 +59,8 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 				s = s + a + "\n";
 				i++;
 			}
+		} if(s.equals("")) {
+			s = null;
 		}
 		return s;
 	}
@@ -113,11 +115,9 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 		Entry<K,V> e = (Entry<K,V>) hashMap[index];
 		if(e != null ) {
 			while(true) {
-				if (e.getKey().equals(arg0)) {
-					break;
-				}
 				if(e.next == null) {
 					e.next = new Entry<K,V>(arg0, arg1);
+					e = e.next;
 					break;
 				}
 				e = e.next;
