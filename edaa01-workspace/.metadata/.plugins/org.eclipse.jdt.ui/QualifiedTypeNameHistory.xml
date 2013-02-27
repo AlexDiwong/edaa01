@@ -7,9 +7,13 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="fractal.Fractal"/>
 <fullyQualifiedTypeName name="mountain.Point"/>
+<<<<<<< HEAD
+<fullyQualifiedTypeName name="map.Map.Entry"/>
+=======
 <fullyQualifiedTypeName name="sudoku.OneLetterField"/>
 <fullyQualifiedTypeName name="solver.Solver"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+>>>>>>> branch 'master' of git@github.com:AlexSoder/edaa01.git
 </qualifiedTypeNameHistroy>

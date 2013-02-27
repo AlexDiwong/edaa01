@@ -1,0 +1,496 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2357317d1e1f14937b3bda942c58791ee1dba581",
+    "jarFileModificationDate": "2012-10-05T02:58:00+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f61f71496ffdd90c7b1af3c651a2223e906508a5",
+    "jarFileModificationDate": "2012-10-05T03:03:35+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "junit",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f7cf82c2c188e805e53a5525e2c1e055237770c6",
+    "jarFileModificationDate": "2012-04-29T01:20:00+02:00",
+    "location": "/Applications/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "03d7e9ad41dc991a637ed6dd913a0d51578be88d",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bb3419895ae0d933724b281211271a88ada2e51a",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c5d7b7bfab9b433c4b62aebbe76a564b6bcf8192",
+    "jarFileModificationDate": "2011-07-14T22:43:57+02:00",
+    "location": "/System/Library/Java/Extensions/mlibwrapper_jai.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ca9e390a18f6bed5719c731eb0a021da33ada472",
+    "jarFileModificationDate": "2011-07-14T21:43:29+02:00",
+    "location": "/System/Library/Java/Extensions/j3dcore.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "187a3cf6ae2087c1e05147287a8c627acbc4d497",
+    "jarFileModificationDate": "2011-09-03T01:37:04+02:00",
+    "location": "/System/Library/Java/Extensions/AppleScriptEngine.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9c65be66b7d064aa969eed550ce6bca0c930fd4c",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b5e4dc975cb7433d3d2afe36821a0c6aff674a04",
+    "jarFileModificationDate": "2012-11-02T18:08:16+01:00",
+    "location": "/System/Library/Java/Extensions/QTJava.zip",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "62d773a0551c5161c8b860290f3457cff4e73da5",
+    "jarFileModificationDate": "2012-10-05T03:13:24+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "07447f54ac0c16f3cbcab37dbabd7bc79c1fcd19",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "80a1b59c9a46cd5cd3869637f77eb5261937fd35",
+    "jarFileModificationDate": "2011-07-14T21:43:29+02:00",
+    "location": "/System/Library/Java/Extensions/j3dutils.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1503ad4d73098d98476f6b8353e5f101dec6d4ff",
+    "jarFileModificationDate": "2012-06-27T09:58:25+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1c9b83346ea4d8df982bf46bc7cf34dbb0c889c2",
+    "jarFileModificationDate": "2012-10-05T03:07:19+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "70e3f9e76e3d5884415516c0cee0855295bcb571",
+    "jarFileModificationDate": "2012-10-05T02:58:00+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9b30476d56095fb993b826732a879b6cfb07be7b",
+    "jarFileModificationDate": "2012-08-11T16:12:35+02:00",
+    "location": "/System/Library/Java/Extensions/pt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f56383db77ae9502e6ca617e57d55ee73d631c46",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/ext/sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "efd8c15ccfd684910c7b290b6c3c74398a5af598",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d611b449a93c1013f13b5022390326ba07e82d0e",
+    "jarFileModificationDate": "2012-11-02T18:07:32+01:00",
+    "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "75adc5cc3eda1c0c87a296f64121e029c672576a",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "eb43f4162bd9d5d8fc66e263e542bfe151187247",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ececf755ad0be59e88e5cbd67f333420e0cea3a7",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "efccebe4458cfb77604b9bb20e476666af2889cf",
+    "jarFileModificationDate": "2012-10-05T03:13:19+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.hamcrest.core",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": "v20090501071000"
+    },
+    "jarFileFingerprint": "254c9660266e1177c94b1a9ba05f6f757e7fb85a",
+    "jarFileModificationDate": "2012-06-14T19:45:33+02:00",
+    "location": "/Applications/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0e204c45fd2e7cc8abdc457636f34358cc534e60",
+    "jarFileModificationDate": "2012-10-05T02:58:00+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f8da5f0b2561d280a59a4414c59083dec8e0227",
+    "jarFileModificationDate": "2011-07-14T22:44:11+02:00",
+    "location": "/System/Library/Java/Extensions/jai_codec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dba74e353db1e9431910c44265bd85a4fdb675ae",
+    "jarFileModificationDate": "2012-10-05T03:07:11+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c1f55a5f1b968811b44b49804ccb8ac2b5f4aa20",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/JObjC.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b916adf8238b8a99bd630da794df5ef2d9341749",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "34699721120eede31b7fe5140226deedc0b2aab9",
+    "jarFileModificationDate": "2011-07-14T21:43:29+02:00",
+    "location": "/System/Library/Java/Extensions/j3daudio.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "096c07686702497c46affdf25d6559ac10235884",
+    "jarFileModificationDate": "2011-07-14T22:44:11+02:00",
+    "location": "/System/Library/Java/Extensions/jai_core.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "48c1ff3d0b4f292426c69973f8b2fa1a104fcc55",
+    "jarFileModificationDate": "2012-10-05T03:11:14+02:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9b30476d56095fb993b826732a879b6cfb07be7b",
+    "jarFileModificationDate": "2012-08-11T16:12:35+02:00",
+    "location": "/Library/Java/Extensions/pt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "11b20ff260a378e53bd2cdb5005d84d78e72b34d",
+    "jarFileModificationDate": "2012-06-27T09:58:23+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0a96b7d4126b3a5e4ac1bfb648ce0a059e03f7de",
+    "jarFileModificationDate": "2012-11-02T18:07:36+01:00",
+    "location": "/System/Library/Java/Extensions/dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0999f1f3951d713e9a0d96f063f6f6e931589cdd",
+    "jarFileModificationDate": "2011-07-14T21:43:29+02:00",
+    "location": "/System/Library/Java/Extensions/vecmath.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "04197b5f00f1e62412abf5bd0819480cdb7a419f",
+    "jarFileModificationDate": "2012-11-02T18:07:34+01:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  }
+]

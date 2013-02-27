@@ -4,6 +4,15 @@
 		<item value="222" key="DIALOG_Y_ORIGIN"/>
 		<item value="272" key="DIALOG_X_ORIGIN"/>
 	</section>
+<<<<<<< HEAD
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+=======
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
@@ -11,5 +20,6 @@
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
 		</list>
+>>>>>>> branch 'master' of git@github.com:AlexSoder/edaa01.git
 	</section>
 </section>
