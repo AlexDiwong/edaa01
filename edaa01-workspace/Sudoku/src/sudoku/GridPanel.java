@@ -2,14 +2,7 @@ package sudoku;
 
 import javax.swing.*;
 
-import solver.Solver;
-
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-
 
 public class GridPanel extends JPanel{
 	
@@ -22,6 +15,9 @@ public class GridPanel extends JPanel{
 			for (int j = 0; j < 9; j++) {
 				fields[i][j] = new OneLetterField();
 				fields[i][j].setText("0");
+				if(i/3 != 1 && j/3 != 1 || i/3 == 1 && j/3 == 1) {
+					fields[i][j].setBackground(new Color(192, 192, 192));
+				}
 				add(fields[i][j]);
 			}
 		}
