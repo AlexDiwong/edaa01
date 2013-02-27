@@ -12,7 +12,7 @@ public class Solver {
 		sudoku = new int[9][9];
 	}
 
-	private void createMatrix(OneLetterField[][] field) {
+	public boolean createMatrix(OneLetterField[][] field) {
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
 				if (field[i][j].getText().equals("")) {
@@ -22,10 +22,24 @@ public class Solver {
 				}
 			}
 		}
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				int temp = sudoku[i][j];
+				if (temp != 0) {
+					sudoku[i][j] = 0;
+					if (!horizontal(j, temp) || !vertical(i, temp)
+							|| !inRegion(i, j, temp)) {
+						return false;
+					} else {
+						sudoku[i][j] = temp;
+					}
+				}
+			}
+		}
+		return true;
 	}
 
 	public boolean solve(OneLetterField[][] field) {
-		createMatrix(field);
 		return solver(0, 0);
 	}
 
