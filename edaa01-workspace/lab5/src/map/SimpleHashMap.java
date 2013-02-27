@@ -27,8 +27,9 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 
 		@Override
 		public V setValue(V value) {
+			V temp = this.value;
 			this.value = value;
-			return value;
+			return temp;
 		}
 
 		public String toString() {
@@ -85,7 +86,7 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 
 	private int index(K key) {
 		int index = key.hashCode() % hashMap.length;
-		if(index < 0) {
+		if (index < 0) {
 			index = hashMap.length + index;
 		}
 		return index;
@@ -118,17 +119,14 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 	public V put(K arg0, V arg1) {
 		int index = index(arg0);
 		V value = null;
-		Entry<K,V> find = find(index, arg0);
-		if(find != null) {
-			value = find.getValue();
-			find.setValue(arg1); 
+		Entry<K, V> find = find(index, arg0);
+		if (find != null) {
+			value = find.setValue(arg1);
 		} else {
-			Entry<K,V> temp = hashMap[index];
-			if(temp == null) { 
-				hashMap[index] = new Entry(arg0, arg1);
-			} else {
-				hashMap[index] = new Entry(arg0, arg1);
-				hashMap[index].next = temp;
+			Entry<K, V> temp = hashMap[index];
+			hashMap[index] = new Entry(arg0, arg1);
+			hashMap[index].next = temp;
+			if (temp != null) {
 				value = temp.getValue();
 			}
 		}
