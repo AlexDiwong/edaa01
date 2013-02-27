@@ -15,7 +15,7 @@ public class Solver {
 	private void createMatrix(OneLetterField[][] field) {
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
-				sudoku[i][j] =field[i][j].getText().charAt(0) - 48;
+				sudoku[i][j] = field[i][j].getText().charAt(0) - 48;
 			}
 		}
 	}

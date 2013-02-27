@@ -1,4 +1,5 @@
 package map;
+
 import java.util.*;
 
 public class SimpleHashMap<K, V> implements Map<K, V> {
@@ -7,12 +8,13 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 
 		private K key;
 		private V value;
-		private Entry<K,V> next;
-		
+		private Entry<K, V> next;
+
 		public Entry(K key, V value) {
 			this.key = key;
 			this.value = value;
 		}
+
 		@Override
 		public K getKey() {
 			return key;
@@ -28,7 +30,7 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 			this.value = value;
 			return value;
 		}
-		
+
 		public String toString() {
 			return key + "=" + value;
 		}
@@ -37,20 +39,20 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 
 	private Entry<K, V>[] hashMap;
 	private double loadFactor = 0.75;
-	
+
 	public SimpleHashMap() {
-		hashMap = (Entry<K,V>[]) new Entry[16];
+		hashMap = (Entry<K, V>[]) new Entry[16];
 	}
-	
+
 	public SimpleHashMap(int capacity) {
-		hashMap = (Entry<K,V>[]) new Entry[capacity];
+		hashMap = (Entry<K, V>[]) new Entry[capacity];
 	}
 
 	public String show() {
 		String s = "";
 		int i = 0;
-		for (Entry<K,V> e : hashMap) {
-			if(e != null) {
+		for (Entry<K, V> e : hashMap) {
+			if (e != null) {
 				String a = i + "\t" + e.toString();
 				while (e.next != null) {
 					e = e.next;
@@ -59,34 +61,40 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 				s = s + a + "\n";
 				i++;
 			}
-		} if(s.equals("")) {
+		}
+		if (s.equals("")) {
 			s = null;
 		}
 		return s;
 	}
-	
+
 	public V get(Object arg0) {
 		K key = (K) arg0;
-		Entry<K,V> e;
-		V value = null;;
+		Entry<K, V> e;
+		V value = null;
+		;
 		for (int i = 0; i < hashMap.length; i++) {
 			e = find(i, key);
-			if(e!= null) {
+			if (e != null) {
 				value = e.getValue();
 				break;
 			}
 		}
 		return value;
 	}
-	
+
 	private int index(K key) {
-		return key.hashCode()%hashMap.length;
+		int index = key.hashCode() % hashMap.length;
+		if(index < 0) {
+			index = hashMap.length + index;
+		}
+		return index;
 	}
-	
-	private Entry<K,V> find(int index, K key) {
-		Entry<K,V> e = hashMap[index];
+
+	private Entry<K, V> find(int index, K key) {
+		Entry<K, V> e = hashMap[index];
 		while (e != null) {
-			if(e.getKey().equals(key)) {
+			if (e.getKey().equals(key)) {
 				break;
 			}
 			e = e.next;
@@ -97,9 +105,9 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 	@Override
 	public boolean isEmpty() {
 		boolean empty = true;
-		for(Entry<K,V> e : hashMap) {
-			if(e != null) {
-				empty=false;
+		for (Entry<K, V> e : hashMap) {
+			if (e != null) {
+				empty = false;
 				break;
 			}
 		}
@@ -109,37 +117,34 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 	@Override
 	public V put(K arg0, V arg1) {
 		int index = index(arg0);
-		if(index < 0) {
-			index = hashMap.length + index;
-		}
-		Entry<K,V> e = (Entry<K,V>) hashMap[index];
-		if(e != null ) {
-			while(true) {
-				if(e.next == null) {
-					e.next = new Entry<K,V>(arg0, arg1);
-					e = e.next;
-					break;
-				}
-				e = e.next;
-			}
+		V value = null;
+		Entry<K,V> find = find(index, arg0);
+		if(find != null) {
+			value = find.getValue();
+			find.setValue(arg1); 
 		} else {
-			e = new Entry<K,V>(arg0, arg1);
-			hashMap[index] = e;
+			Entry<K,V> temp = hashMap[index];
+			if(temp == null) { 
+				hashMap[index] = new Entry(arg0, arg1);
+			} else {
+				hashMap[index] = new Entry(arg0, arg1);
+				hashMap[index].next = temp;
+				value = temp.getValue();
+			}
 		}
-		rehash();
-		return e.setValue(arg1);
+		return value;
 	}
-	
+
 	private void rehash() {
 		int size = 0;
-		for(Entry<K,V> e : hashMap) {
+		for (Entry<K, V> e : hashMap) {
 			if (e != null) {
-				size ++;
+				size++;
 			}
 		}
 		int length = hashMap.length;
-		if(size >= loadFactor*length) {
-			Entry<K,V>[] temp = (Entry<K,V>[]) new Entry[length*2];
+		if (size >= loadFactor * length) {
+			Entry<K, V>[] temp = (Entry<K, V>[]) new Entry[length * 2];
 			for (int i = 0; i < length; i++) {
 				temp[i] = hashMap[i];
 			}
@@ -150,13 +155,13 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 	@Override
 	public V remove(Object arg0) {
 		int index = index((K) arg0);
-		Entry<K,V> e = hashMap[index];
-		Entry<K,V> temp = null;
+		Entry<K, V> e = hashMap[index];
+		Entry<K, V> temp = null;
 		V value = null;
-		while(e != null) {
+		while (e != null) {
 			if (e.getKey().equals(arg0)) {
 				value = e.getValue();
-				if(temp != null) {
+				if (temp != null) {
 					temp.next = e.next;
 				} else {
 					hashMap[index] = e.next;
@@ -171,10 +176,10 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 	@Override
 	public int size() {
 		int size = 0;
-		for(Entry<K,V> e : hashMap) {
-			if(e != null) {
+		for (Entry<K, V> e : hashMap) {
+			if (e != null) {
 				size++;
-				while(e.next != null) {
+				while (e.next != null) {
 					e = e.next;
 					size++;
 				}
