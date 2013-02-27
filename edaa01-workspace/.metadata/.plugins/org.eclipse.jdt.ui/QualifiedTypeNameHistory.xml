@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="mountain.Point"/>
 <fullyQualifiedTypeName name="sudoku.OneLetterField"/>
 <fullyQualifiedTypeName name="solver.Solver"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
