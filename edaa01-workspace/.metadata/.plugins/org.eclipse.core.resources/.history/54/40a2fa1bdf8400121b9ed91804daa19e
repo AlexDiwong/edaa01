@@ -1,0 +1,12 @@
+package phonebook;
+
+public class Main {
+	public static void main(String[] args) {	
+		PhoneBook pb = new PhoneBook();
+		if(args[0] != null) {
+			pb.readFromFile(args[0]);
+		}
+		new PhoneBookGUI(pb);
+	}
+
+}

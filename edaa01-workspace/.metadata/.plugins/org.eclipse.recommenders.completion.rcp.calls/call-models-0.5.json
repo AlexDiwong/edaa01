@@ -8,5 +8,10 @@
     "coordinate": "jre:jre:zip:call:1.0.0",
     "location": "/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/rt.jar",
     "status": "RESOLVED"
+  },
+  "/Users/alexandersoderberg/git/edaa01/edaa01-workspace/lab6/src": {
+    "location": "/Users/alexandersoderberg/git/edaa01/edaa01-workspace/lab6/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/alexandersoderberg/git/edaa01/edaa01-workspace/lab6/src\u0027. Skipped."
   }
 }

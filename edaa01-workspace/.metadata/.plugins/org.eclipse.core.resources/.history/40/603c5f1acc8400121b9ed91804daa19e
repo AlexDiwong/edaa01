@@ -1,0 +1,26 @@
+package phonebook;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JMenuItem;
+
+public class FindNameMenu extends JMenuItem implements ActionListener {
+
+	private PhoneBook pb;
+	private PhoneBookGUI view;
+	
+	public FindNameMenu(PhoneBook pb, PhoneBookGUI view) {
+		super("Find name(s)");
+		this.pb = pb;
+		this.view = view;
+		addActionListener(this);
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -10,6 +10,7 @@ public class PhoneBookGUI extends JFrame {
 	public PhoneBookGUI(PhoneBook pb) {
 		super("PhoneBook");
 		phoneBook = pb;
+		pb.readFromFile(JOptionPane.showInputDialog("Write a file name:"));
 		
 		setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 		
@@ -24,7 +25,15 @@ public class PhoneBookGUI extends JFrame {
 		menubar.add(editMenu);
 		editMenu.add(new AddMenu(phoneBook,this));
 		editMenu.add(new RemoveMenu(phoneBook,this));
-			
+		
+		JMenu findMenu = new JMenu("Find");
+		menubar.add(findMenu);
+		findMenu.add(new FindNumberMenu(phoneBook, this));
+		findMenu.add(new FindNameMenu(phoneBook, this));
+		
+		JMenu viewMenu = new JMenu("View");
+		menubar.add(viewMenu);
+		viewMenu.add(new ShowAllMenu(phoneBook, this));
 		
 		JPanel southPanel = new JPanel();
 		messageArea = new JTextArea(4,25);
@@ -35,5 +44,9 @@ public class PhoneBookGUI extends JFrame {
 		
 		pack();
 		setVisible(true);
+	}
+	
+	public void setText(String s) {
+		messageArea.setText(s);
 	}
 }

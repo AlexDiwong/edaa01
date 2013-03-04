@@ -1,0 +1,38 @@
+package phonebook;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+
+public class FindNameMenu extends JMenuItem implements ActionListener {
+
+	private PhoneBook pb;
+	private PhoneBookGUI view;
+	
+	public FindNameMenu(PhoneBook pb, PhoneBookGUI view) {
+		super("Find name(s)");
+		this.pb = pb;
+		this.view = view;
+		addActionListener(this);
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String name = JOptionPane.showInputDialog("Enter Name");
+		if(name != null) {
+			List<String> nbrs = pb.findNumber(name);
+			if(nbrs == null) {
+				view.setText(name + " not found!");
+			} else {
+				String s = name + ":"+ "\t" + nbrs.get(0);
+				for(int i = 1; i) {
+					s = s + "\t" 
+				}
+			}
+		}
+	}
+
+}
