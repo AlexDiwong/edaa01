@@ -10,9 +10,7 @@ public class PhoneBookGUI extends JFrame {
 	public PhoneBookGUI(PhoneBook pb) {
 		super("PhoneBook");
 		phoneBook = pb;
-		if(!pb.readFromFile(JOptionPane.showInputDialog("Write a file name:"))) {
-			JOptionPane.showMessageDialog(this, "File not found!");
-		}
+		pb.readFromFile(JOptionPane.showInputDialog("Write a file name:"));
 		
 		setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 		

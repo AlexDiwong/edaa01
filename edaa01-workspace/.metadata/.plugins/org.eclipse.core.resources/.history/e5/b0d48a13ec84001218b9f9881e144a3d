@@ -77,29 +77,27 @@ public class PhoneBook implements Serializable {
 		}
 	}
 
-	public boolean readFromFile(String name) {
+	public void readFromFile(String name) {
 		try {
 			ObjectInputStream in = new ObjectInputStream(new FileInputStream(
 					name));
 			phoneBook = (Map<String, LinkedList<String>>) in.readObject();
 		} catch (FileNotFoundException d) {
-//			try {
-//				ObjectOutputStream out = new ObjectOutputStream(
-//						new FileOutputStream(new File(name)));
-//				out.writeObject(phoneBook);
-//			} catch (Exception f) {
-//				f.printStackTrace();
-//				System.exit(1);
-			return false;
+			try {
+				ObjectOutputStream out = new ObjectOutputStream(
+						new FileOutputStream(new File(name)));
+				out.writeObject(phoneBook);
+			} catch (Exception f) {
+				f.printStackTrace();
+				System.exit(1);
 
-			//}
+			}
 		}
 		catch (Exception e) {
 			e.printStackTrace();
 			System.exit(1);
 
 		}
-		return true;
 	}
 
 }
