@@ -9,7 +9,8 @@ public class SudokuView {
 	private CommandPanel commandPanel;
 	private GridPanel gridPanel;
 	public OneLetterField[][] fields;
-	
+	/**Skapar fönstret och ramen till panelerna samt placerar panelerna som ska ingå inuti ramen.
+	 * @param title fönstrets titel*/
 	public SudokuView(String title) {
 		JFrame frame = new JFrame(title);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

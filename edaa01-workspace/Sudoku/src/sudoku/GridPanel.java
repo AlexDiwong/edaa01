@@ -3,11 +3,11 @@ package sudoku;
 import javax.swing.*;
 
 import java.awt.*;
-
 public class GridPanel extends JPanel{
 	
 	private OneLetterField[][] fields;
 	
+	/**Skapar en panel som består ett rutnät av klassen OneLetterField*/
 	public GridPanel(SudokuView view,  OneLetterField[][] fields) {
 		this.fields = fields;
 		setLayout(new GridLayout(9, 9));

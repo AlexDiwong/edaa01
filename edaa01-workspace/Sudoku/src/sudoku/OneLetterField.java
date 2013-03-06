@@ -7,13 +7,12 @@ import javax.swing.text.PlainDocument;
 
 public class OneLetterField extends JTextField {
 
-	/**
-	 * Creates a text field to display only one letter.
-	 */
+	/**Skapar en textruta som får innehålla en siffra*/
 	public OneLetterField() {
 		super("");
 		setDocument(new OneNumberDocument());
 	}
+	/***/
 	
 	public void clearField() {
 		removeAll();

@@ -13,6 +13,7 @@ public class SolveButton extends JButton implements ActionListener {
 	SudokuView view;
 	Solver solver = new Solver();
 
+/**Skapar en knapp som används då sudokun ska lösas*/
 	public SolveButton(SudokuView view) {
 		super("Solve");
 		this.view = view;
@@ -20,10 +21,11 @@ public class SolveButton extends JButton implements ActionListener {
 		this.setToolTipText("Lös problemet");
 	}
 
-	@Override
+/**Vid knapptryck löses sudokun.
+ * param e det ActionEvent som skapas vid knapptryck*/
 	public void actionPerformed(ActionEvent e) {
 		if (solver.createMatrix(view.fields)) {
-			if (solver.solve(view.fields)) {
+			if (solver.solve()) {
 				int[][] temp = solver.getSolved();
 				for (int i = 0; i < 9; i++) {
 					for (int j = 0; j < 9; j++) {

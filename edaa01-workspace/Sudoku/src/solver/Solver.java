@@ -8,10 +8,13 @@ public class Solver {
 
 	private int[][] sudoku;
 
+	/**Skapar en 9x9-matris och innehåller metoder för att lösa en sudoku*/
 	public Solver() {
 		sudoku = new int[9][9];
 	}
-	
+	/**Skapar en matris med samma innehåll som parametern field och ser till att inga otillåtena värden är instoppade.
+	 * @param field matrisen av objekten OneLetterField som skall överföras till matrisen
+	 * @return returnerar true om överföringen gick bra och false om otillåtena värden hade stopppats in*/
 	public boolean createMatrix(OneLetterField[][] field) {
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
@@ -38,11 +41,15 @@ public class Solver {
 		}
 		return true;
 	}
+	/**Löser sudokun.
+	 * @param field matrisen av objekt av klassen OneLetterField som ska lösas
+	 * @return returnerar true om sudokun gick att lösa*/
 
-	public boolean solve(OneLetterField[][] field) {
+	public boolean solve() {
 		return solver(0, 0);
 	}
-
+/**Skickar tillbaka en matris med Integer-objekt
+ * @return returnerar en int-matris med sudokuns innehåll*/
 	public int[][] getSolved() {
 		return sudoku;
 	}
